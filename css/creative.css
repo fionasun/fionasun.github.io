@@ -32,10 +32,14 @@ a:focus {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+h4{
+  font-family: 'Open Sans';
+  font-size:20px;
 }
 
 li{
@@ -117,6 +121,8 @@ aside {
 #about .profile{
   height: 250px;
   width: 250px;
+  display: block;
+  margin: auto;
 }
 #about a{
   color: #FFFFFF;
@@ -128,6 +134,16 @@ aside {
 
 #education{
   background-color: #CFCCD2;
+}
+
+.time{
+  text-align: right;
+  padding-top: 10px;
+}
+
+.subtitle{
+  font-style: italic;
+  font-size: 16px;
 }
 
 @media (min-width: 768px) {
