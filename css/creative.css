@@ -9,7 +9,7 @@ body {
   width: 100%;
 }
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
   border-color: #F05F40;
@@ -37,6 +37,12 @@ h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
+
+li{
+  font-size: 16px;
+  line-height: 2.5;
+}
+
 p {
   font-size: 16px;
   line-height: 1.5;
@@ -105,6 +111,25 @@ aside {
 .navbar-default .nav > li.active > a:focus:hover {
   background-color: transparent;
 }
+
+
+/**About*/
+#about .profile{
+  height: 250px;
+  width: 250px;
+}
+#about a{
+  color: #FFFFFF;
+}
+
+#about b{
+  color: #FFFFFF;
+}
+
+#education{
+  background-color: #CFCCD2;
+}
+
 @media (min-width: 768px) {
   .navbar-default {
     background-color: transparent;
@@ -181,6 +206,12 @@ header .header-content .header-content-inner p {
   font-size: 16px;
   margin-bottom: 50px;
 }
+
+header .social li {
+  display: inline-block;
+}
+
+
 @media (min-width: 768px) {
   header {
     min-height: 100%;
@@ -269,6 +300,7 @@ header .header-content .header-content-inner p {
 .portfolio-box:focus {
   outline: none;
 }
+
 @media (min-width: 768px) {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-size: 16px;
@@ -414,3 +446,4 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
+
